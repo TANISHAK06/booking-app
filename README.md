@@ -15,13 +15,20 @@ A modern, responsive booking app built with React, Vite, and Tailwind CSS. This 
 
 ### Steps
 1. Clone the repository:
-   ```bash
+    ```bash
    git clone https://github.com/TANISHAK06/booking-app.git
-2. Install dependencies : npm install
+  
+2. Install dependencies : 
+  ```bash
+  npm install
+```
+3. Start Development Server :
+```bash
+  npm run dev
+```
 
-3. Start the deployment server: npm run dev
+## Technologies
 
-Technologies
-React: Front-end library for building user interfaces.
-Vite: Build tool for fast development and optimized production builds.
-Tailwind CSS: Utility-first CSS framework for easy styling.
+- **React** : Front-end library for building user interfaces.
+- **Vite** : Build tool for fast development and optimized production builds.
+- **Tailwind CSS** : Utility-first CSS framework for easy styling.
