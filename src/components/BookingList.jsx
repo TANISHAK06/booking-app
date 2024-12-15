@@ -113,10 +113,10 @@ const BookingList = () => {
                 {filteredBookings.slice(0, visibleCount).map((booking) => (
                   <li
                     key={booking.bookingid}
-                    className="flex justify-between items-center p-4 bg-white rounded-lg shadow mb-4"
+                    className="flex justify-between items-center p-4 bg-white bg-opacity-50 rounded-2xl shadow mb-4"
                   >
                     {/* Show booking ID */}
-                    <span className="text-gray-600">
+                    <span className="text-gray-600 ">
                       Booking ID: {booking.bookingid}
                     </span>
                     {/* Link to edit the booking */}

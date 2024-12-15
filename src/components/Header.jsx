@@ -26,7 +26,7 @@ export default function Header() {
             {/* Link for "Create Booking" */}
             <li
               onClick={() => navigate("")} // Navigate to the home page or the create booking page when clicked
-              className="font-semibold text-gray-700 cursor-pointer md:text-s lg:text-s"
+              className="font-semibold text-gray-700 cursor-pointer md:text-s lg:text-s  hover:text-gray-900"
             >
               Create Booking
             </li>
@@ -34,7 +34,7 @@ export default function Header() {
             {/* Link for "Booking List" */}
             <li
               onClick={() => navigate("bookings")} // Navigate to the bookings list page when clicked
-              className="font-semibold cursor-pointer text-gray-700"
+              className="font-semibold cursor-pointer text-gray-700  hover:text-gray-900"
             >
               Booking List
             </li>
