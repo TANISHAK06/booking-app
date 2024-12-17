@@ -19,7 +19,7 @@ export default function Footer() {
           <div className="px-5 py-2">
             <a
               onClick={() => navigate("bookings")}
-              className="text-base leading-6 text-gray-500 hover:text-gray-900"
+              className="text-base leading-6 text-gray-500 hover:text-gray-900 cursor-pointer"
             >
               Booking List
             </a>
@@ -27,7 +27,7 @@ export default function Footer() {
           <div className="px-5 py-2">
             <a
               onClick={() => navigate("")}
-              className="text-base leading-6 text-gray-500 hover:text-gray-900"
+              className="text-base leading-6 text-gray-500 hover:text-gray-900  cursor-pointer"
             >
               Create Booking
             </a>
@@ -35,7 +35,7 @@ export default function Footer() {
           <div className="px-5 py-2">
             <a
               onClick={() => navigate("bookings")}
-              className="text-base leading-6 text-gray-500 hover:text-gray-900"
+              className="text-base leading-6 text-gray-500 hover:text-gray-900  cursor-pointer"
             >
               Edit Booking
             </a>
